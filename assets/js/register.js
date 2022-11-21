@@ -17,7 +17,7 @@ $(document).ready(function() {
                     $("#signin_here").html("Please Wait...");
                 },
                 success: function(response) {
-                    window.location = "login.html"
+                    if(response.trim()== "Sign in Success :)") window.location = "login.html"
                 }
             });
         } else {

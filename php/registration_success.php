@@ -6,7 +6,7 @@
     $email = $_POST["email"];
     $password = $_POST["password"];
 
-    $insert_data = "INSERT INTO `users`(`full_name`, `email`, `ph_number`, `password`) 
+    $insert_data = "INSERT INTO `users`(`full_name`, `email`, `mo_number`, `password`) 
     VALUES ('$fullname','$email','$monumber','$password')";
 
     if($db->query($insert_data)){

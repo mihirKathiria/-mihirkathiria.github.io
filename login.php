@@ -31,14 +31,17 @@
                             <form id="login_form" class="signin-form">
                                 <div class="form-group mb-3">
                                     <label class="label" for="name">Email</label>
-                                    <input type="email" id="login_email" class="form-control" placeholder="Email" required>
+                                    <input type="email" id="login_email" class="form-control" placeholder="Email"
+                                        required>
                                 </div>
                                 <div class="form-group mb-3">
                                     <label class="label" for="password">Password</label>
-                                    <input type="password" id="login_password" class="form-control" placeholder="Password" required>
+                                    <input type="password" id="login_password" class="form-control"
+                                        placeholder="Password" required>
                                 </div>
                                 <div class="form-group">
-                                    <button type="submit" id="login_here" class="form-control btn btn-primary rounded submit px-3">Sign In</button>
+                                    <button type="submit" id="login_here"
+                                        class="form-control btn btn-primary rounded submit px-3">Sign In</button>
                                 </div>
                                 <div class="form-group d-md-flex">
                                     <!-- <div class="w-50 text-left">
@@ -52,7 +55,8 @@
                                     </div> -->
                                 </div>
                             </form>
-                            <p class="text-center">Not a member? <a href="/grocery-shop/register.html">Register now</a></p>
+                            <p class="text-center">Not a member? <a href="/grocery-shop/register.html">Register now</a>
+                            </p>
                             <p class="text-center">Go to <a href="/grocery-shop/index.html">Homepage</a></p>
                         </div>
                     </div>
